@@ -5,50 +5,65 @@
   font-family: "Roboto", sans-serif;
 }
 
-.container {
+main > .container {
   width: 1000px;
   margin: 10px auto;
 }
 
-.img {
+.container > .img {
   display: inline-block;
   width: 33%;
   position: relative;
   margin-bottom: 30px;
 }
 
-.img img {
+.img > .normal {
   width: 100%;
 }
 
-.brand {
+.img > .hover {
+  display: none;
+  width: 100%;
+}
+
+.img:hover .hover {
+  display: block;
+  width: 100%;
+}
+
+.img:hover .normal {
+  display: none;
+  width: 100%;
+}
+
+.img > .brand {
   font-size: 13px;
 }
 
-.type {
+.img > .type {
   font-size: 15px;
   font-weight: bold;
 }
 
-.price {
+.img > .price {
   color: red;
   font-size: 15px;
   font-weight: bold;
 }
 
-.crossed-out {
+.img > .crossed-out {
   font-size: 15px;
   text-decoration: line-through;
 }
 
-.labels {
+.img > .labels {
   position: absolute;
   bottom: 75px;
   font-size: 11px;
   color: white;
 }
 
-.labels .lab {
+.labels > .lab {
   padding: 2px;
 }
 
@@ -61,7 +76,7 @@
   background: green;
 }
 
-.heart {
+.img > .heart {
   position: absolute;
   top: 20px;
   right: 0;
