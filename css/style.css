@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 1000px;
+  margin: 10px auto;
+}
+
+.img {
+  display: inline-block;
+  width: 33%;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.img img {
+  width: 100%;
+}
+
+.brand {
+  font-size: 13px;
+}
+
+.type {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.price {
+  color: red;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.crossed-out {
+  font-size: 15px;
+  text-decoration: line-through;
+}
+
+.labels {
+  position: absolute;
+  bottom: 75px;
+  font-size: 11px;
+  color: white;
+}
+
+.labels .lab {
+  padding: 2px;
+}
+
+.lab.red {
+  background: red;
+  margin-right: 2px;
+}
+
+.lab.green {
+  background: green;
+}
+
+.heart {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  background: white;
+  padding: 10px;
+  line-height: 0.5;
+  font-size: 25px;
+}
