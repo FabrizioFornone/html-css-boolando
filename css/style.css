@@ -19,6 +19,7 @@ main > .container {
 
 .img > .normal {
   width: 100%;
+  display: block;
 }
 
 .img > .hover {
